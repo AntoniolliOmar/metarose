@@ -1,0 +1,5 @@
+.card:hover{
+    cursor: pointer;
+    filter:opacity(80%)  !important;
+    -webkit-filter:opacity(80%)  !important;
+}

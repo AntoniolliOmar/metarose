@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>MetalRose</title>
+
+</head>
+<body class="bg-black">
+    <header>
+        <nav class="navbar navbar-expand-lg shadow py-0>
+            <div class="container-fluid">
+              <a class="navbar-brand text-white px-2" href="#">
+                <img src="./assets/img/logosf.png" alt="logo" width="75">
+              </a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./compra.html">Pijamas</a></li>
+                      <li><a class="dropdown-item" href="./compra.html">conjuntos</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="./compra.html">Corsets</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#sobremi">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
+ <section id="banner" class="sec1">
+  <div class="position-relative">
+    <img src="./assets/img/logosf.png" alt="pijama" class="img1">
+    <div class="h-100 fs-1 ind1">
+      Indumentaria 
+    </div>
+  </div>
+</section>
+
+ <section class="sec2 bg-danger">
+  <h2 class="col-12 text-center">PRODUCTOS</h2>
+  <div class="productos" data-index="0">
+    <a href="./compra.html">
+    <img src="./assets/img/conjunto.webp" alt="" width="300px" height="300px">
+    </a>
+    <p class="text-center text-dark">Conjuntos</p>
+  </div>
+  <div class="productos" data-index="1">
+    <a href="./compra.html">
+    <img src="./assets/img/pima.webp" alt="" width="300px" height="300px">
+    </a>
+    <p class="text-center text-dark">Pijamas</p>
+  </div> 
+  <div class="productos" data-index="2">
+    <a href="./compra.html">
+    <img src="./assets/img/corset.webp" alt="" width="300px" height="300px">
+    </a>
+    <p class="text-center text-dark">Corsets</p>
+  </div>
+ </section>
+
+ <section id="sobremi" class="sec3">
+  <div class="text3 text-center">
+    Mi nombre es Valeria Meza, tengo 29 años y soy madre de dos pequeños quienes son mi inspiración. Metal Rose se creo a partir de mi sueño de autosuperarme y de mi pasión por crear cosas innovadoras. Es un trabajo que me llevo años realizar y llegar a donde estoy. Aun falta mucho territorio por recorrer y metas que cumplir para seguir creciendo. Mis creaciones son parte de mi, es mi esencia y ver que a los demás les guste me llena de vida.
+  </div>
+  <div>
+<img src="./assets/img/logosf.png" alt="" class="img3">
+  </div>
+ </section>
+<section id="contacto" class="d-flex flex-column justify-content-center">
+  <div class="text-center">CONTACTAME POR WHATSAPP</div>
+  
+<div class="d-flex justify-content-center">
+  <div class="col-4"></div>
+  <a href="https://api.whatsapp.com/send?phone=5402613413531" class="d-flex justify-content-center"> <img  src="./assets/img/wsp.webp" alt="wsp" width="200px"></a>
+  <div class="col-4"></div>
+</div>
+
+
+  <div class="text-center">O dejame un correo</div>
+  <br>
+  <div class="form py-4">
+    <form action="/action_page.php" class="form" target="_blank">
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname" placeholder="Nombre" class="col-4"><br><br>
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname" placeholder="Apellido" class="col-4"><br><br>
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname" placeholder="Email" class="col-4"><br><br>
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname" placeholder="Tu consulta" class="col-12"><br><br><br>
+      <input type="submit" value="ENVIAR" class="col-12">
+      </form>
+  </div>
+  
+</section>
+
+
+
+</main>
+<footer class="bg-danger">
+  <div><a href="./index.html">MetalRose Indumentaria</a></div>
+  <div><a href="./compra.html">Productos</a></div>
+  <div><a href="#sobremi">Sobre Mi</a></div>
+  <div><a href="#contacto">Contacto</a></div>
+  <div><a><b> By Omii</b></a></div> 
+</footer>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
